@@ -1,0 +1,80 @@
+body{
+	background: #e5e5e5;
+}
+
+.card{
+	border: 1px solid #d8d8d8;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+background-color: #fff;
+border-bottom-width: 2px;
+
+padding: 20px 20px;
+}
+
+h1,h2,h3,h4{font-family: 'Gilda Display', serif;}
+
+.bgImageContainer{
+background: #f39c12;
+background: -moz-linear-gradient(-45deg, #f1c40f 0%, #f39c12 100%);
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#f1c40f), color-stop(100%,#f39c12));
+background: -webkit-linear-gradient(-55deg, #f1c40f 0%,#f39c12 100%);
+background: -o-linear-gradient(-45deg, #f1c40f 0%,#f39c12 100%);
+background: -ms-linear-gradient(-45deg, #f1c40f 0%,#f39c12 100%);
+background: linear-gradient(135deg, #f1c40f 0%,#f39c12 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1c40f', endColorstr='#f39c12',GradientType=1 );
+background-size:cover;
+background-repeat: no-repeat;
+
+z-index:-10;
+position:absolute;
+width: 100%;
+height: 500px;
+overflow: hidden;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+z-index:2;
+min-height: 100%;
+height: auto !important;
+height: 100%;
+/* Negative indent footer by its height */
+margin: 0 auto -30px;
+/* Pad bottom by footer height */
+padding: 0 0 60px;
+}
+/* Set the fixed height of the footer here */
+#footer {
+height: 40px;
+bottom: 40px;
+background-color: #f5f5f5;
+position: absolute;
+}
+/* Custom page CSS
+-------------------------------------------------- */
+.fluid-container {
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+}
+.search-area{
+background: rgba(57,60,61,0.8);
+-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+box-shadow: 0 0 5px rgba(0,0,0,0.5);
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+border: 1px solid rgba(0,0,0,0.8);
+padding: 15px;
+line-height: 1.2;
+}
+.btn-danger{
+background: #BA0000;
+border: 1px solid #BA0000;
+}
+.btn-danger:hover{
+background: #6B0000;
+border: 1px solid #6B0000;
+}
